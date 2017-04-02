@@ -1,0 +1,331 @@
+"","pcode_st","name_st","pcode_dt","name_dt","pcode_ts","name_ts","mean_hhsize"
+"1","MMR001","Kachin","MMR001D001","Myitkyina","MMR001001","Myitkyina",5
+"2","MMR001","Kachin","MMR001D001","Myitkyina","MMR001002","Waingmaw",5
+"3","MMR001","Kachin","MMR001D001","Myitkyina","MMR001003","Injangyang",5
+"4","MMR001","Kachin","MMR001D001","Myitkyina","MMR001004","Tanai",6
+"5","MMR001","Kachin","MMR001D001","Myitkyina","MMR001005","Chipwi",6
+"6","MMR001","Kachin","MMR001D001","Myitkyina","MMR001006","Tsawlaw",6
+"7","MMR001","Kachin","MMR001D002","Mohnyin","MMR001007","Mohnyin",5
+"8","MMR001","Kachin","MMR001D002","Mohnyin","MMR001008","Mogaung",5
+"9","MMR001","Kachin","MMR001D002","Mohnyin","MMR001009","Hpakant",5
+"10","MMR001","Kachin","MMR001D003","Bhamo","MMR001010","Bhamo",5
+"11","MMR001","Kachin","MMR001D003","Bhamo","MMR001011","Shwegu",5
+"12","MMR001","Kachin","MMR001D003","Bhamo","MMR001012","Momauk",5
+"13","MMR001","Kachin","MMR001D003","Bhamo","MMR001013","Mansi",5
+"14","MMR001","Kachin","MMR001D004","Puta-O","MMR001014","Puta-O",6
+"15","MMR001","Kachin","MMR001D004","Puta-O","MMR001015","Sumprabum",5
+"16","MMR001","Kachin","MMR001D004","Puta-O","MMR001016","Machanbaw",5
+"17","MMR001","Kachin","MMR001D004","Puta-O","MMR001018","Khaunglanhpu",7
+"18","MMR001","Kachin","MMR001D004","Puta-O","MMR001017","Nawngmun",6
+"19","MMR002","Kayah","MMR002D001","Loikaw","MMR002001","Loikaw",5
+"20","MMR002","Kayah","MMR002D001","Loikaw","MMR002002","Demoso",5
+"21","MMR002","Kayah","MMR002D001","Loikaw","MMR002003","Hpruso",5
+"22","MMR002","Kayah","MMR002D001","Loikaw","MMR002004","Shadaw",5
+"23","MMR002","Kayah","MMR002D002","Bawlake","MMR002005","Bawlakhe",4
+"24","MMR002","Kayah","MMR002D002","Bawlake","MMR002006","Hpasawng",5
+"25","MMR002","Kayah","MMR002D002","Bawlake","MMR002007","Mese",4
+"26","MMR003","Kayin","MMR003D001","Hpa-An","MMR003001","Hpa-An",5
+"27","MMR003","Kayin","MMR003D001","Hpa-An","MMR003002","Hlaingbwe",5
+"28","MMR003","Kayin","MMR003D001","Hpa-An","MMR003004","Thandaunggyi",5
+"29","MMR003","Kayin","MMR003D004","Hpapun","MMR003003","Hpapun",5
+"30","MMR003","Kayin","MMR003D002","Myawaddy","MMR003005","Myawaddy",5
+"31","MMR003","Kayin","MMR003D003","Kawkareik","MMR003006","Kawkareik",5
+"32","MMR003","Kayin","MMR003D003","Kawkareik","MMR003007","Kyainseikgyi",5
+"33","MMR004","Chin","MMR004D003","Hakha","MMR004002","Hakha",5
+"34","MMR004","Chin","MMR004D003","Hakha","MMR004003","Thantlang",5
+"35","MMR004","Chin","MMR004D001","Falam","MMR004001","Falam",5
+"36","MMR004","Chin","MMR004D001","Falam","MMR004004","Tedim",6
+"37","MMR004","Chin","MMR004D001","Falam","MMR004005","Tonzang",6
+"38","MMR004","Chin","MMR004D002","Mindat","MMR004006","Mindat",5
+"39","MMR004","Chin","MMR004D002","Mindat","MMR004007","Matupi",5
+"40","MMR004","Chin","MMR004D002","Mindat","MMR004008","Kanpetlet",5
+"41","MMR004","Chin","MMR004D002","Mindat","MMR004009","Paletwa",5
+"42","MMR005","Sagaing","MMR005D001","Sagaing","MMR005001","Sagaing",4
+"43","MMR005","Sagaing","MMR005D001","Sagaing","MMR005002","Myinmu",4
+"44","MMR005","Sagaing","MMR005D001","Sagaing","MMR005003","Myaung",4
+"45","MMR005","Sagaing","MMR005D002","Shwebo","MMR005004","Shwebo",5
+"46","MMR005","Sagaing","MMR005D002","Shwebo","MMR005005","Khin-U",4
+"47","MMR005","Sagaing","MMR005D002","Shwebo","MMR005006","Wetlet",4
+"48","MMR005","Sagaing","MMR005D002","Shwebo","MMR005007","Kanbalu",5
+"49","MMR005","Sagaing","MMR005D002","Shwebo","MMR005008","Kyunhla",5
+"50","MMR005","Sagaing","MMR005D002","Shwebo","MMR005009","Ye-U",4
+"51","MMR005","Sagaing","MMR005D002","Shwebo","MMR005010","Tabayin",5
+"52","MMR005","Sagaing","MMR005D002","Shwebo","MMR005011","Taze",5
+"53","MMR005","Sagaing","MMR005D003","Monywa","MMR005012","Monywa",5
+"54","MMR005","Sagaing","MMR005D003","Monywa","MMR005013","Budalin",4
+"55","MMR005","Sagaing","MMR005D003","Monywa","MMR005014","Ayadaw",4
+"56","MMR005","Sagaing","MMR005D003","Monywa","MMR005015","Chaung-U",4
+"57","MMR005","Sagaing","MMR005D004","Katha","MMR005020","Katha",5
+"58","MMR005","Sagaing","MMR005D004","Katha","MMR005021","Indaw",5
+"59","MMR005","Sagaing","MMR005D004","Katha","MMR005022","Tigyaing",5
+"60","MMR005","Sagaing","MMR005D004","Katha","MMR005023","Banmauk",5
+"61","MMR005","Sagaing","MMR005D004","Katha","MMR005024","Kawlin",5
+"62","MMR005","Sagaing","MMR005D004","Katha","MMR005025","Wuntho",5
+"63","MMR005","Sagaing","MMR005D004","Katha","MMR005026","Pinlebu",5
+"64","MMR005","Sagaing","MMR005D005","Kale","MMR005027","Kale",5
+"65","MMR005","Sagaing","MMR005D005","Kale","MMR005028","Kalewa",5
+"66","MMR005","Sagaing","MMR005D005","Kale","MMR005029","Mingin",5
+"67","MMR005","Sagaing","MMR005D006","Tamu","MMR005030","Tamu",5
+"68","MMR005","Sagaing","MMR005D007","Mawlaik","MMR005031","Mawlaik",5
+"69","MMR005","Sagaing","MMR005D007","Mawlaik","MMR005032","Paungbyin",6
+"70","MMR005","Sagaing","MMR005D008","Hkamti","MMR005033","Hkamti",5
+"71","MMR005","Sagaing","MMR005D008","Hkamti","MMR005034","Homalin",6
+"72","MMR005","Sagaing","MMR005D008","Hkamti","MMR005035","Lay Shi",5
+"73","MMR005","Sagaing","MMR005D008","Hkamti","MMR005036","Lahe",6
+"74","MMR005","Sagaing","MMR005D008","Hkamti","MMR005037","Nanyun",6
+"75","MMR005","Sagaing","MMR005D009","Yinmabin","MMR005016","Yinmabin",5
+"76","MMR005","Sagaing","MMR005D009","Yinmabin","MMR005018","Salingyi",4
+"77","MMR005","Sagaing","MMR005D009","Yinmabin","MMR005019","Pale",4
+"78","MMR005","Sagaing","MMR005D009","Yinmabin","MMR005017","Kani",5
+"79","MMR006","Tanintharyi","MMR006D001","Dawei","MMR006001","Dawei",5
+"80","MMR006","Tanintharyi","MMR006D001","Dawei","MMR006002","Launglon",5
+"81","MMR006","Tanintharyi","MMR006D001","Dawei","MMR006003","Thayetchaung",5
+"82","MMR006","Tanintharyi","MMR006D001","Dawei","MMR006004","Yebyu",4
+"83","MMR006","Tanintharyi","MMR006D002","Myeik","MMR006005","Myeik",5
+"84","MMR006","Tanintharyi","MMR006D002","Myeik","MMR006006","Kyunsu",5
+"85","MMR006","Tanintharyi","MMR006D002","Myeik","MMR006007","Palaw",5
+"86","MMR006","Tanintharyi","MMR006D002","Myeik","MMR006008","Tanintharyi",5
+"87","MMR006","Tanintharyi","MMR006D003","Kawthoung","MMR006009","Kawthoung",4
+"88","MMR006","Tanintharyi","MMR006D003","Kawthoung","MMR006010","Bokpyin",5
+"89","MMR111","Bago","MMR007D001","Bago","MMR007001","Bago",4
+"90","MMR111","Bago","MMR007D001","Bago","MMR007002","Thanatpin",4
+"91","MMR111","Bago","MMR007D001","Bago","MMR007003","Kawa",4
+"92","MMR111","Bago","MMR007D001","Bago","MMR007004","Waw",5
+"93","MMR111","Bago","MMR007D001","Bago","MMR007005","Nyaunglebin",4
+"94","MMR111","Bago","MMR007D001","Bago","MMR007006","Kyauktaga",5
+"95","MMR111","Bago","MMR007D001","Bago","MMR007007","Daik-U",4
+"96","MMR111","Bago","MMR007D001","Bago","MMR007008","Shwegyin",5
+"97","MMR111","Bago","MMR007D002","Taungoo","MMR007009","Taungoo",4
+"98","MMR111","Bago","MMR007D002","Taungoo","MMR007010","Yedashe",4
+"99","MMR111","Bago","MMR007D002","Taungoo","MMR007011","Kyaukkyi",5
+"100","MMR111","Bago","MMR007D002","Taungoo","MMR007012","Phyu",5
+"101","MMR111","Bago","MMR007D002","Taungoo","MMR007013","Oktwin",4
+"102","MMR111","Bago","MMR007D002","Taungoo","MMR007014","Htantabin",4
+"103","MMR111","Bago","MMR008D001","Pyay","MMR008001","Pyay",4
+"104","MMR111","Bago","MMR008D001","Pyay","MMR008002","Paukkhaung",4
+"105","MMR111","Bago","MMR008D001","Pyay","MMR008003","Padaung",4
+"106","MMR111","Bago","MMR008D001","Pyay","MMR008004","Paungde",4
+"107","MMR111","Bago","MMR008D001","Pyay","MMR008005","Thegon",4
+"108","MMR111","Bago","MMR008D001","Pyay","MMR008006","Shwedaung",4
+"109","MMR111","Bago","MMR008D002","Thayarwady","MMR008007","Thayarwady",4
+"110","MMR111","Bago","MMR008D002","Thayarwady","MMR008008","Letpadan",4
+"111","MMR111","Bago","MMR008D002","Thayarwady","MMR008009","Minhla",4
+"112","MMR111","Bago","MMR008D002","Thayarwady","MMR008010","Okpho",4
+"113","MMR111","Bago","MMR008D002","Thayarwady","MMR008011","Zigon",4
+"114","MMR111","Bago","MMR008D002","Thayarwady","MMR008012","Nattalin",4
+"115","MMR111","Bago","MMR008D002","Thayarwady","MMR008013","Monyo",4
+"116","MMR111","Bago","MMR008D002","Thayarwady","MMR008014","Gyobingauk",4
+"117","MMR009","Magway","MMR009D001","Magway","MMR009001","Magway",4
+"118","MMR009","Magway","MMR009D001","Magway","MMR009002","Yenangyaung",4
+"119","MMR009","Magway","MMR009D001","Magway","MMR009003","Chauk",4
+"120","MMR009","Magway","MMR009D001","Magway","MMR009004","Taungdwingyi",4
+"121","MMR009","Magway","MMR009D001","Magway","MMR009005","Myothit",4
+"122","MMR009","Magway","MMR009D001","Magway","MMR009006","Natmauk",4
+"123","MMR009","Magway","MMR009D002","Minbu","MMR009007","Minbu",4
+"124","MMR009","Magway","MMR009D002","Minbu","MMR009008","Pwintbyu",4
+"125","MMR009","Magway","MMR009D002","Minbu","MMR009009","Ngape",4
+"126","MMR009","Magway","MMR009D002","Minbu","MMR009010","Salin",4
+"127","MMR009","Magway","MMR009D002","Minbu","MMR009011","Sidoktaya",4
+"128","MMR009","Magway","MMR009D003","Thayet","MMR009012","Thayet",4
+"129","MMR009","Magway","MMR009D003","Thayet","MMR009013","Minhla",4
+"130","MMR009","Magway","MMR009D003","Thayet","MMR009014","Mindon",4
+"131","MMR009","Magway","MMR009D003","Thayet","MMR009015","Kamma",4
+"132","MMR009","Magway","MMR009D003","Thayet","MMR009016","Aunglan",4
+"133","MMR009","Magway","MMR009D003","Thayet","MMR009017","Sinbaungwe",4
+"134","MMR009","Magway","MMR009D004","Pakokku","MMR009018","Pakokku",4
+"135","MMR009","Magway","MMR009D004","Pakokku","MMR009019","Yesagyo",5
+"136","MMR009","Magway","MMR009D004","Pakokku","MMR009020","Myaing",4
+"137","MMR009","Magway","MMR009D004","Pakokku","MMR009021","Pauk",4
+"138","MMR009","Magway","MMR009D004","Pakokku","MMR009022","Seikphyu",4
+"139","MMR009","Magway","MMR009D005","Gangaw","MMR009023","Gangaw",4
+"140","MMR009","Magway","MMR009D005","Gangaw","MMR009024","Tilin",5
+"141","MMR009","Magway","MMR009D005","Gangaw","MMR009025","Saw",4
+"142","MMR010","Mandalay","MMR010D001","Mandalay","MMR010001","Aungmyaythazan",5
+"143","MMR010","Mandalay","MMR010D001","Mandalay","MMR010002","Chanayethazan",5
+"144","MMR010","Mandalay","MMR010D001","Mandalay","MMR010003","Mahaaungmyay",5
+"145","MMR010","Mandalay","MMR010D001","Mandalay","MMR010004","Chanmyathazi",5
+"146","MMR010","Mandalay","MMR010D001","Mandalay","MMR010005","Pyigyitagon",5
+"147","MMR010","Mandalay","MMR010D001","Mandalay","MMR010006","Amarapura",5
+"148","MMR010","Mandalay","MMR010D001","Mandalay","MMR010007","Patheingyi",5
+"149","MMR010","Mandalay","MMR010D002","Pyinoolwin","MMR010008","Pyinoolwin",4
+"150","MMR010","Mandalay","MMR010D002","Pyinoolwin","MMR010009","Madaya",4
+"151","MMR010","Mandalay","MMR010D002","Pyinoolwin","MMR010010","Singu",5
+"152","MMR010","Mandalay","MMR010D002","Pyinoolwin","MMR010011","Mogoke",5
+"153","MMR010","Mandalay","MMR010D002","Pyinoolwin","MMR010012","Thabeikkyin",5
+"154","MMR010","Mandalay","MMR010D003","Kyaukse","MMR010013","Kyaukse",4
+"155","MMR010","Mandalay","MMR010D003","Kyaukse","MMR010014","Sintgaing",4
+"156","MMR010","Mandalay","MMR010D003","Kyaukse","MMR010015","Myittha",4
+"157","MMR010","Mandalay","MMR010D003","Kyaukse","MMR010016","Tada-U",4
+"158","MMR010","Mandalay","MMR010D004","Myingyan","MMR010017","Myingyan",4
+"159","MMR010","Mandalay","MMR010D004","Myingyan","MMR010018","Taungtha",4
+"160","MMR010","Mandalay","MMR010D004","Myingyan","MMR010019","Natogyi",4
+"161","MMR010","Mandalay","MMR010D004","Myingyan","MMR010020","Kyaukpadaung",4
+"162","MMR010","Mandalay","MMR010D004","Myingyan","MMR010021","Ngazun",4
+"163","MMR010","Mandalay","MMR010D005","Nyaung-U","MMR010022","Nyaung-U",4
+"164","MMR010","Mandalay","MMR010D006","Yamethin","MMR010023","Yamethin",4
+"165","MMR010","Mandalay","MMR010D006","Yamethin","MMR010024","Pyawbwe",4
+"166","MMR010","Mandalay","MMR010D007","Meiktila","MMR010028","Meiktila",4
+"167","MMR010","Mandalay","MMR010D007","Meiktila","MMR010029","Mahlaing",4
+"168","MMR010","Mandalay","MMR010D007","Meiktila","MMR010030","Thazi",4
+"169","MMR010","Mandalay","MMR010D007","Meiktila","MMR010031","Wundwin",4
+"170","MMR011","Mon","MMR011D001","Mawlamyine","MMR011001","Mawlamyine",5
+"171","MMR011","Mon","MMR011D001","Mawlamyine","MMR011002","Kyaikmaraw",5
+"172","MMR011","Mon","MMR011D001","Mawlamyine","MMR011003","Chaungzon",4
+"173","MMR011","Mon","MMR011D001","Mawlamyine","MMR011004","Thanbyuzayat",5
+"174","MMR011","Mon","MMR011D001","Mawlamyine","MMR011005","Mudon",5
+"175","MMR011","Mon","MMR011D001","Mawlamyine","MMR011006","Ye",5
+"176","MMR011","Mon","MMR011D002","Thaton","MMR011007","Thaton",5
+"177","MMR011","Mon","MMR011D002","Thaton","MMR011008","Paung",5
+"178","MMR011","Mon","MMR011D002","Thaton","MMR011009","Kyaikto",4
+"179","MMR011","Mon","MMR011D002","Thaton","MMR011010","Bilin",4
+"180","MMR012","Rakhine","MMR012D001","Sittwe","MMR012001","Sittwe",5
+"181","MMR012","Rakhine","MMR012D001","Sittwe","MMR012002","Ponnagyun",5
+"182","MMR012","Rakhine","MMR012D001","Sittwe","MMR012007","Pauktaw",5
+"183","MMR012","Rakhine","MMR012D001","Sittwe","MMR012008","Rathedaung",5
+"184","MMR012","Rakhine","MMR012D005","Mrauk-U","MMR012003","Mrauk-U",5
+"185","MMR012","Rakhine","MMR012D005","Mrauk-U","MMR012004","Kyauktaw",5
+"186","MMR012","Rakhine","MMR012D005","Mrauk-U","MMR012005","Minbya",5
+"187","MMR012","Rakhine","MMR012D005","Mrauk-U","MMR012006","Myebon",4
+"188","MMR012","Rakhine","MMR012D002","Maungdaw","MMR012009","Maungdaw",5
+"189","MMR012","Rakhine","MMR012D002","Maungdaw","MMR012010","Buthidaung",5
+"190","MMR012","Rakhine","MMR012D003","Kyaukpyu","MMR012011","Kyaukpyu",4
+"191","MMR012","Rakhine","MMR012D003","Kyaukpyu","MMR012012","Munaung",4
+"192","MMR012","Rakhine","MMR012D003","Kyaukpyu","MMR012013","Ramree",4
+"193","MMR012","Rakhine","MMR012D003","Kyaukpyu","MMR012014","Ann",4
+"194","MMR012","Rakhine","MMR012D004","Thandwe","MMR012015","Thandwe",4
+"195","MMR012","Rakhine","MMR012D004","Thandwe","MMR012016","Toungup",4
+"196","MMR012","Rakhine","MMR012D004","Thandwe","MMR012017","Gwa",4
+"197","MMR013","Yangon","MMR013D001","Yangon (North)","MMR013001","Insein",5
+"198","MMR013","Yangon","MMR013D001","Yangon (North)","MMR013002","Mingaladon",4
+"199","MMR013","Yangon","MMR013D001","Yangon (North)","MMR013003","Hmawbi",4
+"200","MMR013","Yangon","MMR013D001","Yangon (North)","MMR013004","Hlegu",4
+"201","MMR013","Yangon","MMR013D001","Yangon (North)","MMR013005","Taikkyi",4
+"202","MMR013","Yangon","MMR013D001","Yangon (North)","MMR013006","Htantabin",4
+"203","MMR013","Yangon","MMR013D001","Yangon (North)","MMR013007","Shwepyithar",5
+"204","MMR013","Yangon","MMR013D001","Yangon (North)","MMR013008","Hlaingtharya",5
+"205","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013009","Thingangyun",5
+"206","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013010","Yankin",5
+"207","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013011","South Okkalapa",5
+"208","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013012","North Okkalapa",5
+"209","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013013","Thaketa",5
+"210","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013014","Dawbon",5
+"211","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013015","Tamwe",4
+"212","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013016","Pazundaung",4
+"213","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013017","Botahtaung",4
+"214","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013018","Dagon Myothit (South)",5
+"215","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013019","Dagon Myothit (North)",5
+"216","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013020","Dagon Myothit (East)",5
+"217","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013021","Dagon Myothit (Seikkan)",4
+"218","MMR013","Yangon","MMR013D002","Yangon (East)","MMR013022","Mingalartaungnyunt",5
+"219","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013023","Thanlyin",4
+"220","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013024","Kyauktan",4
+"221","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013025","Thongwa",4
+"222","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013026","Kayan",4
+"223","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013027","Twantay",4
+"224","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013028","Kawhmu",4
+"225","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013029","Kungyangon",4
+"226","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013030","Dala",5
+"227","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013031","Seikgyikanaungto",4
+"228","MMR013","Yangon","MMR013D003","Yangon (South)","MMR013032","Cocokyun",3
+"229","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013033","Kyauktada",4
+"230","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013034","Pabedan",5
+"231","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013035","Lanmadaw",4
+"232","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013036","Latha",4
+"233","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013037","Ahlone",4
+"234","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013038","Kyeemyindaing",5
+"235","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013039","Sanchaung",4
+"236","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013040","Hlaing",5
+"237","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013041","Kamaryut",5
+"238","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013042","Mayangone",5
+"239","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013043","Dagon",4
+"240","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013044","Bahan",5
+"241","MMR013","Yangon","MMR013D004","Yangon (West)","MMR013045","Seikkan",5
+"242","MMR222","Shan","MMR014D001","Taunggyi","MMR014001","Taunggyi",4
+"243","MMR222","Shan","MMR014D001","Taunggyi","MMR014002","Nyaungshwe",4
+"244","MMR222","Shan","MMR014D001","Taunggyi","MMR014003","Hopong",4
+"245","MMR222","Shan","MMR014D001","Taunggyi","MMR014004","Hsihseng",5
+"246","MMR222","Shan","MMR014D001","Taunggyi","MMR014005","Kalaw",4
+"247","MMR222","Shan","MMR014D001","Taunggyi","MMR014006","Pindaya",4
+"248","MMR222","Shan","MMR014D001","Taunggyi","MMR014007","Ywangan",4
+"249","MMR222","Shan","MMR014D001","Taunggyi","MMR014008","Lawksawk",5
+"250","MMR222","Shan","MMR014D001","Taunggyi","MMR014009","Pinlaung",4
+"251","MMR222","Shan","MMR014D001","Taunggyi","MMR014010","Pekon",5
+"252","MMR222","Shan","MMR014D002","Loilen","MMR014011","Loilen",5
+"253","MMR222","Shan","MMR014D002","Loilen","MMR014012","Laihka",5
+"254","MMR222","Shan","MMR014D002","Loilen","MMR014013","Nansang",5
+"255","MMR222","Shan","MMR014D002","Loilen","MMR014014","Kunhing",5
+"256","MMR222","Shan","MMR014D002","Loilen","MMR014015","Kyethi",5
+"257","MMR222","Shan","MMR014D002","Loilen","MMR014016","Mongkaing",4
+"258","MMR222","Shan","MMR014D002","Loilen","MMR014017","Monghsu",4
+"259","MMR222","Shan","MMR014D003","Langkho","MMR014018","Langkho",4
+"260","MMR222","Shan","MMR014D003","Langkho","MMR014019","Mongnai",4
+"261","MMR222","Shan","MMR014D003","Langkho","MMR014020","Mawkmai",5
+"262","MMR222","Shan","MMR014D003","Langkho","MMR014021","Mongpan",4
+"263","MMR222","Shan","MMR015D001","Lashio","MMR015001","Lashio",5
+"264","MMR222","Shan","MMR015D001","Lashio","MMR015002","Hseni",5
+"265","MMR222","Shan","MMR015D001","Lashio","MMR015003","Mongyai",4
+"266","MMR222","Shan","MMR015D001","Lashio","MMR015004","Tangyan",5
+"267","MMR222","Shan","MMR015D002","Muse","MMR015009","Muse",5
+"268","MMR222","Shan","MMR015D002","Muse","MMR015010","Namhkan",5
+"269","MMR222","Shan","MMR015D002","Muse","MMR015011","Kutkai",5
+"270","MMR222","Shan","MMR015D003","Kyaukme","MMR015012","Kyaukme",4
+"271","MMR222","Shan","MMR015D003","Kyaukme","MMR015013","Nawnghkio",4
+"272","MMR222","Shan","MMR015D003","Kyaukme","MMR015014","Hsipaw",4
+"273","MMR222","Shan","MMR015D003","Kyaukme","MMR015015","Namtu",4
+"274","MMR222","Shan","MMR015D003","Kyaukme","MMR015016","Namhsan",5
+"275","MMR222","Shan","MMR015D003","Kyaukme","MMR015017","Mongmit",4
+"276","MMR222","Shan","MMR015D003","Kyaukme","MMR015018","Mabein",5
+"277","MMR222","Shan","MMR015D003","Kyaukme","MMR015019","Manton",5
+"278","MMR222","Shan","MMR015D004","Kunlong","MMR015020","Kunlong",5
+"279","MMR222","Shan","MMR015D005","Laukkaing","MMR015022","Laukkaing",6
+"280","MMR222","Shan","MMR015D005","Laukkaing","MMR015023","Konkyan",6
+"281","MMR222","Shan","MMR015D006","Hopang","MMR015021","Hopang",5
+"282","MMR222","Shan","MMR015D006","Hopang","MMR015008","Mongmao",7
+"283","MMR222","Shan","MMR015D006","Hopang","MMR015007","Pangwaun",7
+"284","MMR222","Shan","MMR015D007","Matman","MMR015024","Matman",6
+"285","MMR222","Shan","MMR015D007","Matman","MMR015005","Pangsang",5
+"286","MMR222","Shan","MMR015D007","Matman","MMR015006","Narphan",7
+"287","MMR222","Shan","MMR016D001","Kengtung","MMR016001","Kengtung",5
+"288","MMR222","Shan","MMR016D001","Kengtung","MMR016002","Mongkhet",5
+"289","MMR222","Shan","MMR016D001","Kengtung","MMR016003","Mongyang",5
+"290","MMR222","Shan","MMR016D001","Kengtung","MMR016005","Mongla",5
+"291","MMR222","Shan","MMR016D002","Monghsat","MMR016006","Monghsat",5
+"292","MMR222","Shan","MMR016D002","Monghsat","MMR016007","Mongping",5
+"293","MMR222","Shan","MMR016D002","Monghsat","MMR016008","Mongton",5
+"294","MMR222","Shan","MMR016D003","Tachileik","MMR016009","Tachileik",4
+"295","MMR222","Shan","MMR016D004","Monghpyak","MMR016010","Monghpyak",5
+"296","MMR222","Shan","MMR016D004","Monghpyak","MMR016011","Mongyawng",4
+"297","MMR017","Ayeyarwady","MMR017D001","Pathein","MMR017002","Kangyidaunt",4
+"298","MMR017","Ayeyarwady","MMR017D001","Pathein","MMR017007","Kyaunggon",4
+"299","MMR017","Ayeyarwady","MMR017D001","Pathein","MMR017005","Kyonpyaw",4
+"300","MMR017","Ayeyarwady","MMR017D001","Pathein","MMR017004","Ngapudaw",4
+"301","MMR017","Ayeyarwady","MMR017D001","Pathein","MMR017001","Pathein",4
+"302","MMR017","Ayeyarwady","MMR017D001","Pathein","MMR017006","Yegyi",4
+"303","MMR017","Ayeyarwady","MMR017D001","Pathein","MMR017003","Thabaung",4
+"304","MMR017","Ayeyarwady","MMR017D006","Pyapon","MMR017025","Kyaiklat",4
+"305","MMR017","Ayeyarwady","MMR017D006","Pyapon","MMR017026","Dedaye",4
+"306","MMR017","Ayeyarwady","MMR017D006","Pyapon","MMR017023","Pyapon",4
+"307","MMR017","Ayeyarwady","MMR017D006","Pyapon","MMR017024","Bogale",4
+"308","MMR017","Ayeyarwady","MMR017D005","Maubin","MMR017021","Nyaungdon",4
+"309","MMR017","Ayeyarwady","MMR017D005","Maubin","MMR017022","Danubyu",4
+"310","MMR017","Ayeyarwady","MMR017D005","Maubin","MMR017020","Pantanaw",4
+"311","MMR017","Ayeyarwady","MMR017D005","Maubin","MMR017019","Maubin",4
+"312","MMR017","Ayeyarwady","MMR017D003","Myaungmya","MMR017014","Myaungmya",4
+"313","MMR017","Ayeyarwady","MMR017D003","Myaungmya","MMR017017","Wakema",4
+"314","MMR017","Ayeyarwady","MMR017D003","Myaungmya","MMR017015","Einme",4
+"315","MMR017","Ayeyarwady","MMR017D004","Labutta","MMR017018","Mawlamyinegyun",4
+"316","MMR017","Ayeyarwady","MMR017D004","Labutta","MMR017016","Labutta",4
+"317","MMR017","Ayeyarwady","MMR017D002","Hinthada","MMR017012","Kyangin",4
+"318","MMR017","Ayeyarwady","MMR017D002","Hinthada","MMR017009","Zalun",4
+"319","MMR017","Ayeyarwady","MMR017D002","Hinthada","MMR017011","Myanaung",4
+"320","MMR017","Ayeyarwady","MMR017D002","Hinthada","MMR017010","Lemyethna",4
+"321","MMR017","Ayeyarwady","MMR017D002","Hinthada","MMR017008","Hinthada",4
+"322","MMR017","Ayeyarwady","MMR017D002","Hinthada","MMR017013","Ingapu",4
+"323","MMR018","Nay Pyi Taw","MMR018D001","Nay Pyi Taw (North)","MMR018003","Tatkon",4
+"324","MMR018","Nay Pyi Taw","MMR018D001","Nay Pyi Taw (North)","MMR018001","Zay Yar Thi Ri",4
+"325","MMR018","Nay Pyi Taw","MMR018D001","Nay Pyi Taw (North)","MMR018008","Oke Ta Ra Thi Ri",4
+"326","MMR018","Nay Pyi Taw","MMR018D001","Nay Pyi Taw (North)","MMR018005","Poke Ba Thi Ri",4
+"327","MMR018","Nay Pyi Taw","MMR018D002","Nay Pyi Taw (South)","MMR018006","Pyinmana",5
+"328","MMR018","Nay Pyi Taw","MMR018D002","Nay Pyi Taw (South)","MMR018007","Lewe",4
+"329","MMR018","Nay Pyi Taw","MMR018D002","Nay Pyi Taw (South)","MMR018002","Za Bu Thi Ri",4
+"330","MMR018","Nay Pyi Taw","MMR018D002","Nay Pyi Taw (South)","MMR018004","Det Khi Na Thi Ri",4
