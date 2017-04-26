@@ -12,8 +12,8 @@ This is our team's first attempt at a model to score the potential impact of pub
 The v1 method itself is fairly simple: a manually honed linear model, for interpretability and for insights toward building future models. In our scoring system (below), this model's predicted solar electrification rates (i.e. some degree of success) are balanced against the actual current electrification rate of each township, so as to effectively result in estimates of _relative unmet demand from townships where solar electrification should be successful_. These estimates are then rescaled from 0 to 10 to present a more intuitive score of a funding decision's relative impact from within a forthcoming user interface.  
 
 ### Data Sources 
-+ Myanmar Census, 2014  
-    - Data dictionary
++ [Myanmar Census, 2014](https://data.opendevelopmentmekong.net/dataset/be760472-6224-4d73-b309-335d732cab93/resource/702f8d11-8301-4661-b7b8-030501a90626/download/HouseholdPopulationbaseddatasetMIMUTownshipsabbreviated.csv)
+    - [Data dictionary](https://data.opendevelopmentmekong.net/dataset/be760472-6224-4d73-b309-335d732cab93/resource/f33a6208-ce00-49ec-bac4-f3a5f02c4a3c/download/datadictionaryhhpoptownships.csv)
 + Future sources: TBD  
     - Interested contributors can find more sources at [Booz | Allen | Hamilton's Sailfish Data Exchange >>](https://energytechchallenge.sailfish.boozallen.com/)  
 
@@ -21,6 +21,48 @@ The v1 method itself is fairly simple: a manually honed linear model, for interp
 + Seeking other per-township data sources to join with and help hone our model.
 + Will attempt to find data sources from similar markets, then normalize values from matching variables and attempt to generalize our model (for robustness and replicability, per Booz-Allen's request).  
 + May shift this to an entirely Willingness-to-Pay-based model, if we can find more data on electrical source substitution.  
+
+### Exploratory Analysis
+First, let's explore the prior distribution, visually, by plotting the frequency of rates by state
+
+```r
+install.packages("tidyverse")
+library("tidyverse")
+
+ggplot(data = census14, mapping = aes(x = light_sol)) +
+  geom_freqpoly(mapping = aes(color = name_st), binwidth = mean(census14$light_sol, na.rm = TRUE))
+```
+
+### Munging
+Let's normalize by household population
+
+```r
+install.packages("dplyr")
+
+census14_combined <- merge(x = census14, y = census14.labour, by = "pcode_ts", all = TRUE)
+
+census14_combined$light_sub <- census14_combined$light_t +
+                               census14_combined$light_elec +
+                               census14_combined$light_kero +
+                               census14_combined$light_cand +
+                               census14_combined$light_batt + 
+                               census14_combined$light_gen + 
+                               census14_combined$light_wat +
+                               census14_combined$light_oth
+
+census14_combined$light_sub_rate <- census14_combined$light_sub / 
+                                                    census14_combined$pop_hh.x
+census14_combined$light_sol_rate <- census14_combined$light_sol / 
+                                                    census14_combined$pop_hh.x
+census14_combined$light_elec_rate <- census14_combined$light_elec/ 
+                                                    census14_combined$pop_hh.x
+
+light_model <- subset(census14_combined, select = c("pop_hh.x",
+                                                    "light_sol_rate",
+                                                    "light_elec_rate"
+                                                    )
+                      )
+```
 
 ### Modeling & Diagnostics
 Let's run a comprehensive linear regression to see our predictive potential here. You'll note below that we've been careful to exclude _light electrifciation rate_ from our model, as that could seriously corrupt our results.   
@@ -31,9 +73,8 @@ Let's run a comprehensive linear regression to see our predictive potential here
 ## Quick LM (minus biasing variable, light_elec_rate, and useless township code) 
 ## to assess predictive potential
 ```r
-lm1 <- lm(light_solar_rate ~ . -light_elec_rate -pcode_ts, data = fullset)
+lm1 <- lm(light_sol_rate ~ . -light_elec_rate, data = light_model)
 ```
-**What is "fullset"?**
 
 ## Print adjusted R^2 to gauge potential accuracy
 ```r
