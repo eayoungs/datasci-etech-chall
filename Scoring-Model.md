@@ -23,17 +23,20 @@ The v1 method itself is fairly simple: a manually honed linear model, for interp
 + May shift this to an entirely Willingness-to-Pay-based model, if we can find more data on electrical source substitution.  
 
 ### Modeling & Diagnostics
-Let's run a comprehensive linear regression to see our predictive potential here. You'll note below that we've been careful to exclude _light electriciation rate_ from our model, as that could seriously corrupt our results.   
+Let's run a comprehensive linear regression to see our predictive potential here. You'll note below that we've been careful to exclude _light electrifciation rate_ from our model, as that could seriously corrupt our results.   
 
 
 **Adjusted R-Squared and Significant Variables (in descending order of influence)**  
 
-```r
 ## Quick LM (minus biasing variable, light_elec_rate, and useless township code) 
 ## to assess predictive potential
+```r
 lm1 <- lm(light_solar_rate ~ . -light_elec_rate -pcode_ts, data = fullset)
+```
+**What is "fullset"?**
 
 ## Print adjusted R^2 to gauge potential accuracy
+```r
 print(paste("Adjusted R-Squared:", round(summary(lm1)$adj.r.squared, 3)))
 ```
 
