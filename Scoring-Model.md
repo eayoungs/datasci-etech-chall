@@ -39,7 +39,13 @@ Let's normalize by household population
 ```r
 install.packages("dplyr")
 
-census14_combined <- merge(x = census14, y = census14.labour, by = "pcode_ts", all = TRUE)
+census14_labour <- read_csv(
+        "./data/HouseholdPopulationbaseddatasetMIMUTownshipsabbreviated.csv")
+
+census14_labour <- read_csv(
+        "./data/HouseholdPopulationbaseddatasetMIMUTownshipsLabour.csv")
+
+census14_combined <- merge(x = census14, y = census14_labour, by = "pcode_ts", all = TRUE)
 
 census14_combined$light_sub <- census14_combined$light_t +
                                census14_combined$light_elec +
