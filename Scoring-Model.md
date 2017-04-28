@@ -79,7 +79,7 @@ Let's run a comprehensive linear regression to see our predictive potential here
 ## Quick LM (minus biasing variable, light_elec_rate, and useless township code) 
 ## to assess predictive potential
 ```r
-lm1 <- lm(light_sol_rate ~ . -light_elec_rate, data = light_model)
+lm1 <- lm(light_sol_rate ~ . -light_elec_rate -pcode_ts, data = fullset)
 ```
 
 ## Print adjusted R^2 to gauge potential accuracy
