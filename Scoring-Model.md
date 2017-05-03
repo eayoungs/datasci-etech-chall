@@ -20,7 +20,65 @@ The v1 method itself is fairly simple: a manually honed linear model, for interp
 ### Status  
 + Seeking other per-township data sources to join with and help hone our model.
 + Will attempt to find data sources from similar markets, then normalize values from matching variables and attempt to generalize our model (for robustness and replicability, per Booz-Allen's request).  
-+ May shift this to an entirely Willingness-to-Pay-based model, if we can find more data on electrical source substitution.  
++ May shift this to an entirely Willingness-to-Pay-based model, if we can find more data on electrical source substitution.
+
+### Munging
+Let's normalize by household population
+-> Need to replace 'NA' values in _fullset_ with average of variable (don't
+  forget to set 'is.na = T' for mean())
+
+```r
+install.packages("dplyr")
+
+census14 <- read.csv(
+        "./data/HouseholdPopulationbaseddatasetMIMUTownshipsabbreviated.csv")
+
+census14_labour <- read.csv(
+        "./data/HouseholdPopulationbaseddatasetMIMUTownshipsLabour.csv")
+
+fullset <- merge(x = census14, y = census14_labour, by = "pcode_ts",
+                                                                    all = TRUE)
+
+fullset$light_sub <- fullset$light_t +
+                               fullset$light_elec +
+                               fullset$light_kero +
+                               fullset$light_cand +
+                               fullset$light_batt + 
+                               fullset$light_gen + 
+                               fullset$light_wat +
+                               fullset$light_oth
+
+fullset$light_sub_rate <- fullset$light_sub / fullset$pop_hh.x
+fullset$light_sol_rate <- fullset$light_sol / fullset$pop_hh.x
+fullset$light_elec_rate <- fullset$light_elec / fullset$pop_hh.x
+fullset$pop_hh_rate <- fullset$pop_hh.x / sum(fullset$pop_hh.x)
+fullset$hh_m_rate <- fullset$hh_m / sum(fullset$hh_t.x)
+fullset$hh_f_rate <- fullset$hh_f / sum(fullset$hh_t.x)
+fullset$hh_u_rate <- fullset$hh_u / sum(fullset$hh_t.x)
+fullset$hh_r_rate <- fullset$hh_r / sum(fullset$hh_t.x)
+...
+
+fullset_numeric <- fullset[,sapply(fullset, function(vec, test)
+                                            class(vec) %in% test,
+                                            test=c('numeric', 'integer'))]
+
+```
+## TODO (eayoungs): Let's replace all the NA values with the mean of the 
+##                  column for numeric variables
+```r
+fullset$light_sub_rate[is.na(fullset$light_sub_rate)] <- mean(
+                                            fullset$light_sub_rate, na.rm = T)
+```
+## Since we are interested in rural electrification, let's see what the urban
+## vs rural split is.
+```r
+pop_urban <- sum(fullset$pop_r)
+pop_rural <- sum(fullset$pop_u)
+pop_total <- pop_urban + pop_rural
+
+pop_percent_urban <- pop_urban / pop_total
+pop_percent_rural <- pop_rural / pop_total
+```
 
 ### Exploratory Analysis
 First, let's explore the prior distribution, visually, by plotting the frequency of rates by state
@@ -29,45 +87,14 @@ First, let's explore the prior distribution, visually, by plotting the frequency
 install.packages("tidyverse")
 library("tidyverse")
 
-ggplot(data = census14, mapping = aes(x = light_sol)) +
-  geom_freqpoly(mapping = aes(color = name_st), binwidth = mean(census14$light_sol, na.rm = TRUE))
-```
+ggplot(data = fullset, mapping = aes(x = light_sol_rate)) +
+  geom_freqpoly(mapping = aes(color = name_st), binwidth = mean(fullset$light_sol, na.rm = TRUE))
 
-### Munging
-Let's normalize by household population
+ggplot(data = fullset, mapping = aes(x = light_sub_rate)) +
+  geom_freqpoly(mapping = aes(color = name_st.x))
 
-```r
-install.packages("dplyr")
-
-census14_labour <- read_csv(
-        "./data/HouseholdPopulationbaseddatasetMIMUTownshipsabbreviated.csv")
-
-census14_labour <- read_csv(
-        "./data/HouseholdPopulationbaseddatasetMIMUTownshipsLabour.csv")
-
-census14_combined <- merge(x = census14, y = census14_labour, by = "pcode_ts", all = TRUE)
-
-census14_combined$light_sub <- census14_combined$light_t +
-                               census14_combined$light_elec +
-                               census14_combined$light_kero +
-                               census14_combined$light_cand +
-                               census14_combined$light_batt + 
-                               census14_combined$light_gen + 
-                               census14_combined$light_wat +
-                               census14_combined$light_oth
-
-census14_combined$light_sub_rate <- census14_combined$light_sub / 
-                                                    census14_combined$pop_hh.x
-census14_combined$light_sol_rate <- census14_combined$light_sol / 
-                                                    census14_combined$pop_hh.x
-census14_combined$light_elec_rate <- census14_combined$light_elec/ 
-                                                    census14_combined$pop_hh.x
-
-light_model <- subset(census14_combined, select = c("pop_hh.x",
-                                                    "light_sol_rate",
-                                                    "light_elec_rate"
-                                                    )
-                      )
+fullset[,sapply(fullset, function(vec, test) class(vec) %in% test, 
+                                                              test='numeric')]
 ```
 
 ### Modeling & Diagnostics
