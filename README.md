@@ -2,6 +2,7 @@
 ### Featured Notebooks
 - [Linear model](https://github.com/sfbrigade/datasci-etech-chall/blob/master/Clean_Energy_Challenge.ipynb)
 - [Existing power grid map](https://techieshark.carto.com/viz/8129383a-17ec-11e7-b57b-0ee66e2c9693/public_map)
+- [Clustering analysis](https://github.com/sfbrigade/datasci-etech-chall/blob/master/clustering/Analysis%20-%20Clustering%20Townships.ipynb)
 
 ### Get Started
 1. Fork this repository
