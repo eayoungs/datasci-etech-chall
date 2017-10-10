@@ -61,16 +61,15 @@ fullset$hh_r_rate <- fullset$hh_r / sum(fullset$hh_t.x)
 fullset_numeric <- fullset[,sapply(fullset, function(vec, test)
                                             class(vec) %in% test,
                                             test=c('numeric', 'integer'))]
-
 ```
-## TODO (eayoungs): Let's replace all the NA values with the mean of the 
-##                  column for numeric variables
+
+<!-- TODO (eayoungs): Let's replace all the NA values with the mean of the 
+                      column for numeric variables -->
 ```r
 fullset$light_sub_rate[is.na(fullset$light_sub_rate)] <- mean(
                                             fullset$light_sub_rate, na.rm = T)
 ```
-## Since we are interested in rural electrification, let's see what the urban
-## vs rural split is.
+### Since we are interested in rural electrification, let's see what the urban vs rural split is.
 ```r
 pop_urban <- sum(fullset$pop_r)
 pop_rural <- sum(fullset$pop_u)
