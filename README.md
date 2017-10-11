@@ -1,3 +1,4 @@
+For a walk-through of the analysis see the project page at: https://eayoungs.github.io/datasci-etech-chall/
 
 ### Get Started
 1. Fork this repository
